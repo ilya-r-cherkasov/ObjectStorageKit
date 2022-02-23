@@ -18,6 +18,22 @@
 		3B5EAE7927C2B0DA00ECEDF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B5EAE7827C2B0DA00ECEDF6 /* Assets.xcassets */; };
 		3B5EAE7C27C2B0DA00ECEDF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B5EAE7A27C2B0DA00ECEDF6 /* LaunchScreen.storyboard */; };
 		3B5EAE8227C2B10500ECEDF6 /* ObjectStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5EAE8127C2B10500ECEDF6 /* ObjectStorage.swift */; };
+		3B5EAE8927C2B48100ECEDF6 /* AbstractMetadataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5EAE8827C2B48100ECEDF6 /* AbstractMetadataProvider.swift */; };
+		3B5EAE8C27C2B4AB00ECEDF6 /* AbstractMetadataInjector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5EAE8B27C2B4AB00ECEDF6 /* AbstractMetadataInjector.swift */; };
+		3B5EAE8F27C2B4FB00ECEDF6 /* AbstractURLProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5EAE8E27C2B4FB00ECEDF6 /* AbstractURLProvider.swift */; };
+		3B5EAE9127C2B50500ECEDF6 /* AbstractURLInjector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5EAE9027C2B50500ECEDF6 /* AbstractURLInjector.swift */; };
+		3B5EAE9427C2B56A00ECEDF6 /* AbstractSessionConfigurationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5EAE9327C2B56A00ECEDF6 /* AbstractSessionConfigurationProvider.swift */; };
+		3B5EAE9627C2B57500ECEDF6 /* AbstractSessionConfigurationInjector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5EAE9527C2B57500ECEDF6 /* AbstractSessionConfigurationInjector.swift */; };
+		3B5EAE9927C2B60600ECEDF6 /* AbstractRequestPerformerProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5EAE9827C2B60600ECEDF6 /* AbstractRequestPerformerProvider.swift */; };
+		3B5EAE9B27C2B61000ECEDF6 /* AbstractRequestPerformerInjector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5EAE9A27C2B61000ECEDF6 /* AbstractRequestPerformerInjector.swift */; };
+		3B5EAE9F27C2C60400ECEDF6 /* AbstractProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5EAE9E27C2C60400ECEDF6 /* AbstractProvider.swift */; };
+		3B5EAEA127C2C60D00ECEDF6 /* AbstractInjector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5EAEA027C2C60D00ECEDF6 /* AbstractInjector.swift */; };
+		3B5EAEA327C2C64E00ECEDF6 /* AbstractRequestChain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5EAEA227C2C64E00ECEDF6 /* AbstractRequestChain.swift */; };
+		3B5EAEA527C2D94400ECEDF6 /* RequestCancelable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5EAEA427C2D94400ECEDF6 /* RequestCancelable.swift */; };
+		3B5EAEA827C2DBD600ECEDF6 /* Typealias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5EAEA727C2DBD600ECEDF6 /* Typealias.swift */; };
+		3BDAC9D327C68BC700045930 /* ObserverProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDAC9D227C68BC700045930 /* ObserverProtocol.swift */; };
+		3BDAC9D627C68CD400045930 /* Observer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDAC9D527C68CD400045930 /* Observer.swift */; };
+		3BDAC9DA27C6964300045930 /* RequestChain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDAC9D927C6964300045930 /* RequestChain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +68,22 @@
 		3B5EAE7B27C2B0DA00ECEDF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3B5EAE7D27C2B0DA00ECEDF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3B5EAE8127C2B10500ECEDF6 /* ObjectStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectStorage.swift; sourceTree = "<group>"; };
+		3B5EAE8827C2B48100ECEDF6 /* AbstractMetadataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractMetadataProvider.swift; sourceTree = "<group>"; };
+		3B5EAE8B27C2B4AB00ECEDF6 /* AbstractMetadataInjector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractMetadataInjector.swift; sourceTree = "<group>"; };
+		3B5EAE8E27C2B4FB00ECEDF6 /* AbstractURLProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractURLProvider.swift; sourceTree = "<group>"; };
+		3B5EAE9027C2B50500ECEDF6 /* AbstractURLInjector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractURLInjector.swift; sourceTree = "<group>"; };
+		3B5EAE9327C2B56A00ECEDF6 /* AbstractSessionConfigurationProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractSessionConfigurationProvider.swift; sourceTree = "<group>"; };
+		3B5EAE9527C2B57500ECEDF6 /* AbstractSessionConfigurationInjector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractSessionConfigurationInjector.swift; sourceTree = "<group>"; };
+		3B5EAE9827C2B60600ECEDF6 /* AbstractRequestPerformerProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractRequestPerformerProvider.swift; sourceTree = "<group>"; };
+		3B5EAE9A27C2B61000ECEDF6 /* AbstractRequestPerformerInjector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractRequestPerformerInjector.swift; sourceTree = "<group>"; };
+		3B5EAE9E27C2C60400ECEDF6 /* AbstractProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractProvider.swift; sourceTree = "<group>"; };
+		3B5EAEA027C2C60D00ECEDF6 /* AbstractInjector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractInjector.swift; sourceTree = "<group>"; };
+		3B5EAEA227C2C64E00ECEDF6 /* AbstractRequestChain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractRequestChain.swift; sourceTree = "<group>"; };
+		3B5EAEA427C2D94400ECEDF6 /* RequestCancelable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestCancelable.swift; sourceTree = "<group>"; };
+		3B5EAEA727C2DBD600ECEDF6 /* Typealias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Typealias.swift; sourceTree = "<group>"; };
+		3BDAC9D227C68BC700045930 /* ObserverProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObserverProtocol.swift; sourceTree = "<group>"; };
+		3BDAC9D527C68CD400045930 /* Observer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observer.swift; sourceTree = "<group>"; };
+		3BDAC9D927C6964300045930 /* RequestChain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestChain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +135,10 @@
 		3B5EAE1827C2965300ECEDF6 /* ObjectStorageKit */ = {
 			isa = PBXGroup;
 			children = (
+				3B5EAE8627C2B43500ECEDF6 /* Abstract */,
+				3B5EAEA927C2DD3A00ECEDF6 /* DefaultImplementation */,
+				3B5EAEA627C2DBC200ECEDF6 /* Typealias */,
 				3B5EAE1927C2965300ECEDF6 /* ObjectStorageKit.h */,
-				3B5EAE8127C2B10500ECEDF6 /* ObjectStorage.swift */,
 				3B5EAE1A27C2965300ECEDF6 /* ObjectStorageKit.docc */,
 			);
 			path = ObjectStorageKit;
@@ -130,6 +164,92 @@
 				3B5EAE7D27C2B0DA00ECEDF6 /* Info.plist */,
 			);
 			path = ObjectStorageKitDemo;
+			sourceTree = "<group>";
+		};
+		3B5EAE8627C2B43500ECEDF6 /* Abstract */ = {
+			isa = PBXGroup;
+			children = (
+				3B5EAE9D27C2C5EB00ECEDF6 /* Common */,
+				3B5EAE9727C2B5C100ECEDF6 /* AbstractRequestPerformer */,
+				3B5EAE9227C2B55100ECEDF6 /* AbstractSessionConfiguration */,
+				3B5EAE8D27C2B4D500ECEDF6 /* AbstractURL */,
+				3B5EAE8727C2B45200ECEDF6 /* AbstractMetadata */,
+			);
+			path = Abstract;
+			sourceTree = "<group>";
+		};
+		3B5EAE8727C2B45200ECEDF6 /* AbstractMetadata */ = {
+			isa = PBXGroup;
+			children = (
+				3B5EAE8827C2B48100ECEDF6 /* AbstractMetadataProvider.swift */,
+				3B5EAE8B27C2B4AB00ECEDF6 /* AbstractMetadataInjector.swift */,
+			);
+			path = AbstractMetadata;
+			sourceTree = "<group>";
+		};
+		3B5EAE8D27C2B4D500ECEDF6 /* AbstractURL */ = {
+			isa = PBXGroup;
+			children = (
+				3B5EAE8E27C2B4FB00ECEDF6 /* AbstractURLProvider.swift */,
+				3B5EAE9027C2B50500ECEDF6 /* AbstractURLInjector.swift */,
+			);
+			path = AbstractURL;
+			sourceTree = "<group>";
+		};
+		3B5EAE9227C2B55100ECEDF6 /* AbstractSessionConfiguration */ = {
+			isa = PBXGroup;
+			children = (
+				3B5EAE9327C2B56A00ECEDF6 /* AbstractSessionConfigurationProvider.swift */,
+				3B5EAE9527C2B57500ECEDF6 /* AbstractSessionConfigurationInjector.swift */,
+			);
+			path = AbstractSessionConfiguration;
+			sourceTree = "<group>";
+		};
+		3B5EAE9727C2B5C100ECEDF6 /* AbstractRequestPerformer */ = {
+			isa = PBXGroup;
+			children = (
+				3B5EAE9827C2B60600ECEDF6 /* AbstractRequestPerformerProvider.swift */,
+				3B5EAE9A27C2B61000ECEDF6 /* AbstractRequestPerformerInjector.swift */,
+			);
+			path = AbstractRequestPerformer;
+			sourceTree = "<group>";
+		};
+		3B5EAE9D27C2C5EB00ECEDF6 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				3BDAC9D427C68CBE00045930 /* Observer */,
+				3B5EAEA227C2C64E00ECEDF6 /* AbstractRequestChain.swift */,
+				3B5EAE9E27C2C60400ECEDF6 /* AbstractProvider.swift */,
+				3B5EAEA027C2C60D00ECEDF6 /* AbstractInjector.swift */,
+				3B5EAEA427C2D94400ECEDF6 /* RequestCancelable.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		3B5EAEA627C2DBC200ECEDF6 /* Typealias */ = {
+			isa = PBXGroup;
+			children = (
+				3B5EAEA727C2DBD600ECEDF6 /* Typealias.swift */,
+			);
+			path = Typealias;
+			sourceTree = "<group>";
+		};
+		3B5EAEA927C2DD3A00ECEDF6 /* DefaultImplementation */ = {
+			isa = PBXGroup;
+			children = (
+				3B5EAE8127C2B10500ECEDF6 /* ObjectStorage.swift */,
+				3BDAC9D927C6964300045930 /* RequestChain.swift */,
+			);
+			path = DefaultImplementation;
+			sourceTree = "<group>";
+		};
+		3BDAC9D427C68CBE00045930 /* Observer */ = {
+			isa = PBXGroup;
+			children = (
+				3BDAC9D227C68BC700045930 /* ObserverProtocol.swift */,
+				3BDAC9D527C68CD400045930 /* Observer.swift */,
+			);
+			path = Observer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,8 +394,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B5EAE8C27C2B4AB00ECEDF6 /* AbstractMetadataInjector.swift in Sources */,
+				3B5EAE9127C2B50500ECEDF6 /* AbstractURLInjector.swift in Sources */,
+				3B5EAE9627C2B57500ECEDF6 /* AbstractSessionConfigurationInjector.swift in Sources */,
+				3B5EAEA127C2C60D00ECEDF6 /* AbstractInjector.swift in Sources */,
+				3B5EAEA827C2DBD600ECEDF6 /* Typealias.swift in Sources */,
 				3B5EAE1B27C2965300ECEDF6 /* ObjectStorageKit.docc in Sources */,
+				3BDAC9D627C68CD400045930 /* Observer.swift in Sources */,
+				3B5EAE9B27C2B61000ECEDF6 /* AbstractRequestPerformerInjector.swift in Sources */,
+				3B5EAE8927C2B48100ECEDF6 /* AbstractMetadataProvider.swift in Sources */,
+				3B5EAEA527C2D94400ECEDF6 /* RequestCancelable.swift in Sources */,
+				3B5EAE9427C2B56A00ECEDF6 /* AbstractSessionConfigurationProvider.swift in Sources */,
 				3B5EAE8227C2B10500ECEDF6 /* ObjectStorage.swift in Sources */,
+				3BDAC9D327C68BC700045930 /* ObserverProtocol.swift in Sources */,
+				3BDAC9DA27C6964300045930 /* RequestChain.swift in Sources */,
+				3B5EAE8F27C2B4FB00ECEDF6 /* AbstractURLProvider.swift in Sources */,
+				3B5EAEA327C2C64E00ECEDF6 /* AbstractRequestChain.swift in Sources */,
+				3B5EAE9F27C2C60400ECEDF6 /* AbstractProvider.swift in Sources */,
+				3B5EAE9927C2B60600ECEDF6 /* AbstractRequestPerformerProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

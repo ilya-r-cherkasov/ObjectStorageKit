@@ -10,14 +10,27 @@ import ObjectStorageKit
 
 class ViewController: UIViewController {
     
-    let objectStorage = ObjectStorage()
+    let url = URL(string: "https://storage.yandexcloud.net/ilya-cherkasov/simpleJSON")!
+    
+    lazy var objectStorage = ObjectStorage<SimpleJSON>(url: url)
+    lazy var observer = objectStorage.getObserver()
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        objectStorage.loadData()
+        observer.onCompleted = { simpleJson in
+            print(simpleJson.value)
+        }
+        observer.onError = { error in
+            print(error.localizedDescription)
+        }
     }
 
 
 }
 
+struct SimpleJSON: Codable {
+    
+    var value: Int
+    
+}
